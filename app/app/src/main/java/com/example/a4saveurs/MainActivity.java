@@ -6,6 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.a4saveurs.restaurants.ChineseRestaurant;
+import com.example.a4saveurs.restaurants.IndianRestaurant;
+import com.example.a4saveurs.restaurants.ItalianRestaurant;
+import com.example.a4saveurs.restaurants.JapaneseRestaurant;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

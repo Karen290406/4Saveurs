@@ -1,4 +1,4 @@
-package com.example.a4saveurs;
+package com.example.a4saveurs.Data;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.LineNumberReader;
 import java.util.Scanner;
 
-public class Data {
+public class FileData {
     public static long getLineCountByReader(String fileName) throws IOException {
         try (LineNumberReader lnr = new LineNumberReader(new BufferedReader(new FileReader(fileName)))) {
             while (lnr.readLine() != null) ;
@@ -45,20 +45,20 @@ public class Data {
         int linesCount = 0;
         int lineLength = 0;
         try {
-            lineLength = Data.getLineLength(
+            lineLength = FileData.getLineLength(
                     filePath);
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            linesCount = (int) Data.getLineCountByReader(
+            linesCount = (int) FileData.getLineCountByReader(
                     filePath);
         } catch (IOException e) {
             e.printStackTrace();
         }
         data = new String[(int) linesCount][lineLength];
         try {
-            data = Data.createData(
+            data = FileData.createData(
                     filePath);
         } catch (IOException e) {
             e.printStackTrace();

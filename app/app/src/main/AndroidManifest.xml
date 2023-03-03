@@ -14,16 +14,16 @@
         android:theme="@style/Theme.4Saveurs"
         tools:targetApi="31" >
         <activity
-            android:name=".IndianRestaurant"
+            android:name=".restaurants.IndianRestaurant"
             android:exported="false" />
         <activity
-            android:name=".ChineseRestaurant"
+            android:name=".restaurants.ChineseRestaurant"
             android:exported="false" />
         <activity
-            android:name=".JapaneseRestaurant"
+            android:name=".restaurants.JapaneseRestaurant"
             android:exported="false" />
         <activity
-            android:name=".ItalianRestaurant"
+            android:name=".restaurants.ItalianRestaurant"
             android:exported="false" />
         <activity
             android:name=".Profile"

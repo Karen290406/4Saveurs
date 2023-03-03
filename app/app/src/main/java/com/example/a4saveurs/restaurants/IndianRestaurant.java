@@ -1,8 +1,11 @@
-package com.example.a4saveurs;
+package com.example.a4saveurs.restaurants;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.a4saveurs.Data.FileData;
+import com.example.a4saveurs.R;
 
 public class IndianRestaurant extends AppCompatActivity {
     String[][] data;
@@ -16,7 +19,7 @@ public class IndianRestaurant extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        data = Data.getData(
+        data = FileData.getData(
                 "C:\\Users\\karen\\GitHub\\4Saveurs\\app\\app\\src\\main\\java\\com\\example\\a4saveurs\\Data\\Indian_Restaurant_time");
     }
 
