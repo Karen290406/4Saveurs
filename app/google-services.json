@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "965287234242",
+    "project_id": "fastbooking-9f1a4",
+    "storage_bucket": "fastbooking-9f1a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965287234242:android:115236f9f2f7b878e5c95b",
+        "android_client_info": {
+          "package_name": "com.example.fastbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965287234242-1a1d570i40267kpkuekij2efjgqugrto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL-AYRKDg0IbJcgg-AXrOU6G6s6aRHnRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965287234242-1a1d570i40267kpkuekij2efjgqugrto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

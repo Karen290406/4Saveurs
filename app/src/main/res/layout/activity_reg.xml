@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_image"
-    tools:context=".activities.RegActivity">
+    tools:context=".RegActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -96,7 +96,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/btn_round_style"
         android:backgroundTint="@color/gray"
-        android:onClick="onClick"
         android:text="@string/submit"
         android:textAllCaps="false"
         android:textColor="@color/white"

@@ -11,9 +11,19 @@
         <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/drawable-xxhdpi/ic_launcher_foreground.xml" value="0.3355" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/drawable-xxhdpi/side_nav_bar.xml" value="0.3355" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/drawable/btn_round_style.xml" value="0.3355" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/drawable/btn_rounded_corner.xml" value="0.3345" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/activity_log.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/activity_main2.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/activity_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/activity_reg.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/activity_restaurant_select.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/activity_select_table.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/activity_select_time.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/fragment_my.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/fragment_my_dialog.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/fragment_time.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/karen/AndroidStudioProjects/FastBooking/app/src/main/res/layout/item_list.xml" value="2.2" />
       </map>
     </option>
   </component>
