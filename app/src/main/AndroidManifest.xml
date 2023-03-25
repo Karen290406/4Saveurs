@@ -11,19 +11,46 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:screenOrientation="portrait"
         android:theme="@style/Theme.FastBooking"
         tools:targetApi="31" >
         <activity
-            android:name=".SelectTable"
+            android:name=".ReviewsActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".LeaveReviewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="false" />
+        <activity
+            android:name=".CartActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".BookActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity1"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+        <activity
+            android:name=".SelectTableActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".RegActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
             android:name=".LogActivity"
+            android:screenOrientation="portrait"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

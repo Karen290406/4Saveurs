@@ -4,10 +4,19 @@
     <string name="sign_in">Sign in</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="confirm_password">Confirm your password</string>
     <string name="email">Email</string>
     <string name="submit">Submit</string>
-    <string name="profile_avatar">Profile avatar</string>
-    <string name="app_settings">App settings</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_out">Log out</string>
+    <string name="home">Home</string>
+    <string name="menu">Menu</string>
+    <string name="cart">Cart</string>
+    <string name="book">Book</string>
+    <string name="reviews">Reviews</string>
+    <string name="leave_review">Please leave your review</string>
+    <string name="home_text">Welcome \nPlease choose table number and free time than we can continue.</string>
+    <string name="guests_number">Number Of Guests</string>
+    <string name="special_requests">Special Requests</string>
+    <string name="select_time">Select time</string>
+    <string name="leave_review_btn">Leave/Edit review</string>
 </resources>
