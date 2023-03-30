@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_image"
-    tools:context=".RegActivity">
+    tools:context=".activities.RegActivity">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -28,7 +28,7 @@
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/ic_username"
+        android:drawableStart="@drawable/ic_username"
         android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="@string/username"
@@ -45,30 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.27" />
-
-    <EditText
-        android:id="@+id/email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/ic_email"
-        android:backgroundTint="@color/white"
-        android:ems="10"
-        android:hint="@string/email"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/white"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.39" />
+        app:layout_constraintGuide_percent="0.3" />
 
     <EditText
         android:id="@+id/password"
@@ -91,7 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.51" />
+        app:layout_constraintGuide_percent="0.45" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_sign"
@@ -128,13 +105,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.63" />
+        app:layout_constraintGuide_percent="0.6" />
 
     <EditText
         android:id="@+id/confirm_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/ic_password"
+        android:drawableStart="@drawable/ic_password"
         android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="@string/confirm_password"

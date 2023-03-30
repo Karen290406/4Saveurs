@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_image"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/btn_round_style"
         android:backgroundTint="@color/gray"
-        android:drawableLeft="@drawable/ic_book"
+        android:drawableStart="@drawable/ic_book"
         android:paddingHorizontal="25dp"
         android:onClick="onClick"
         android:text="@string/book"
@@ -47,7 +47,8 @@
         android:textStyle="italic"
         app:layout_constraintEnd_toStartOf="@+id/guideline18"
         app:layout_constraintStart_toStartOf="@+id/guideline15"
-        app:layout_constraintTop_toTopOf="@+id/guideline20" />
+        app:layout_constraintTop_toTopOf="@+id/guideline20"
+        tools:ignore="UsingOnClickInXml" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_cart"
@@ -55,7 +56,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/btn_round_style"
         android:backgroundTint="@color/gray"
-        android:drawableLeft="@drawable/ic_cart"
+        android:drawableStart="@drawable/ic_cart"
         android:paddingHorizontal="25dp"
         android:text="@string/cart"
         android:textAllCaps="false"
@@ -65,7 +66,8 @@
         android:onClick="onClick"
         app:layout_constraintEnd_toStartOf="@+id/guideline18"
         app:layout_constraintStart_toStartOf="@+id/guideline15"
-        app:layout_constraintTop_toTopOf="@+id/guideline21" />
+        app:layout_constraintTop_toTopOf="@+id/guideline21"
+        tools:ignore="UsingOnClickInXml" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_reviews"
@@ -73,7 +75,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/btn_round_style"
         android:backgroundTint="@color/gray"
-        android:drawableLeft="@drawable/ic_reviews"
+        android:drawableStart="@drawable/ic_reviews"
         android:paddingHorizontal="25dp"
         android:text="@string/reviews"
         android:onClick="onClick"
@@ -83,7 +85,8 @@
         android:textStyle="italic"
         app:layout_constraintEnd_toStartOf="@+id/guideline18"
         app:layout_constraintStart_toStartOf="@+id/guideline15"
-        app:layout_constraintTop_toTopOf="@+id/guideline22" />
+        app:layout_constraintTop_toTopOf="@+id/guideline22"
+        tools:ignore="UsingOnClickInXml" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline15"

@@ -1,4 +1,4 @@
-package com.example.fastbooking;
+package com.example.fastbooking.classes;
 
 public class Book {
     private int guestsNumber, table_number;

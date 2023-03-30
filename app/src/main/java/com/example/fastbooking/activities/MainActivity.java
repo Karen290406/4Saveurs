@@ -1,10 +1,12 @@
-package com.example.fastbooking;
+package com.example.fastbooking.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.fastbooking.R;
 
 public class MainActivity extends AppCompatActivity {
 

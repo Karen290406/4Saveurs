@@ -1,4 +1,4 @@
-package com.example.fastbooking;
+package com.example.fastbooking.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,9 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.fastbooking.R;
+import com.example.fastbooking.classes.Review;
+import com.example.fastbooking.ReviewAdapter;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

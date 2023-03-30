@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_image"
-    tools:context=".LogActivity">
+    tools:context=".activities.LogActivity">
 
     <EditText
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/ic_username"
+        android:drawableStart="@drawable/ic_username"
         android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="@string/username"
@@ -27,7 +27,7 @@
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/ic_password"
+        android:drawableStart="@drawable/ic_password"
         android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="@string/password"
@@ -68,7 +68,8 @@
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        tools:ignore="UsingOnClickInXml" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"

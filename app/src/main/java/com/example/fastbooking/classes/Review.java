@@ -1,4 +1,4 @@
-package com.example.fastbooking;
+package com.example.fastbooking.classes;
 
 public class Review {
     private String reviewText, username;

@@ -8,6 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import com.example.fastbooking.classes.Review;
+
 import java.util.ArrayList;
 
 public class ReviewAdapter extends ArrayAdapter<Review> {

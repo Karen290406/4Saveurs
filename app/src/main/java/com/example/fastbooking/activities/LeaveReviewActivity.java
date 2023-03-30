@@ -1,4 +1,4 @@
-package com.example.fastbooking;
+package com.example.fastbooking.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.fastbooking.R;
+import com.example.fastbooking.classes.Review;
+import com.example.fastbooking.classes.User;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;

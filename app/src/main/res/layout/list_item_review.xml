@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="20sp"
+        android:textColor="@color/white"
         android:gravity="center"/>
 
     <RatingBar
@@ -20,6 +21,7 @@
         android:progressTint="@color/green"
         android:numStars="5"
         android:stepSize="1"
+        android:theme="@style/MyRatingBar"
         android:gravity="center"/>
 
     <TextView
@@ -27,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="15sp"
+        android:textColor="@color/white"
         android:gravity="center" />
 
 </LinearLayout>

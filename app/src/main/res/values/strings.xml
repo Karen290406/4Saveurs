@@ -19,4 +19,11 @@
     <string name="special_requests">Special Requests</string>
     <string name="select_time">Select time</string>
     <string name="leave_review_btn">Leave/Edit review</string>
+    <string name="tables">Tables</string>
+    <string name="orders">Orders</string>
+    <string name="number_of_chairs">Number Of Chairs</string>
+    <string name="add_table">Add/edit table</string>
+    <string name="delete">Delete</string>
+    <string name="coupe">Coupe</string>
+    <string name="table_number">Table Number</string>
 </resources>
